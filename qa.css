@@ -1,8 +1,23 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 h1 {
     font-size: 100px;
     color: brown;
 }
 button {
     border: none;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 50px;
+    width: 100px;
+    height: 25px;
+}
+
+p {
+    font-size: 60px;
+    color: blueviolet;
 }
